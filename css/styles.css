@@ -1,0 +1,50 @@
+@font-face  {
+ font-family: 'fontLogo';
+ src: url(../fonts/fontLogo.ttf);
+}
+@font-face  {
+  font-family: 'fontbeba';
+  src: url(../fonts/fontLogo.ttf);
+ }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+.body{
+  background-image: url(../img/body.jpg);
+  background-color: #bcb6b6;  
+}
+.navbar-brand{
+  font-family: 'fontbeba'; 
+
+}
+
+.form{
+  padding-top: 150px;
+
+}
+.servicio{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  flex-wrap: wrap;
+  }
+  .servicio-titulo{
+    margin: 20px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+.servicio1{
+  margin: 20px;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+
+}
+
+
