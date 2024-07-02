@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  @font-face  {
+    font-family: 'fontbeba';
+    src: url(../fonts/fontLogo.ttf);
+  }
+.navbar{
+    font-family: fontbeba;
+}
+  .body{
+    margin: 10px;
+    background-image: url(../img/body.jpg);
+    
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding-top: 60px;
+
+    }
+    .descripcion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top:15px;
+        padding-bottom: 10px;
+        font-family: fontbeba;
+        color:rgba(10, 10, 11, 0.883);
+    }
+    .descripcion principal {
+        font-size: 30px;
+    
+    }
+    .descripcion secundario {   
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    .descripcion .parrafo .segundo{
+
+        padding-bottom: 50px;
+    }
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 70px;
+    padding: 10px 0px;
+
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:first baseline;
+    align-items: center;
+
+}
+.pie-pagina .grupo-1 .box figure img{
+ width: 150px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+    display: flex;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+
+}
+
+.pie-pagina .grupo-1 .box .red-social a{
+        display: inline-block;
+         text-decoration: none;
+         width: 55px;
+         height: 55px;
+         line-height: 55px;
+         color: #fff;
+         margin-right: 10px;
+         background-color: #0d2033;
+         text-align:center;
+        
+         transition:all 300ms ease;
+}
+.pie-pagina .grupo-1 .box  .red-social a:hover{
+    color:rgb(7, 28, 148);
+}
+
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color:#fff
+}
+.servicio{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px ;
+    font-size: 30px ;
+
+}   
+.servicio .titulo{
+    font-size: 60px;
+    padding-bottom: 50px ;
+}     
+.col{
+    font-size: 25px ;
+    padding-bottom: 60px ;
+}
