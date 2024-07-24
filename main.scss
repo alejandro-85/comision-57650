@@ -13,7 +13,8 @@
 
 }
 .img-Navbar{
-    width: 150px;
+    width: 180px;
+    height: 100px;
     
 }
  
@@ -239,7 +240,7 @@ column-gap: 2rem;
     justify-content: center;
     align-items: center;
 font-size: 20px;
-   
+font-family: fontbeba;
 }
 .descripcion1{
     grid-area: descripcion1;
@@ -248,6 +249,7 @@ font-size: 20px;
     justify-content: center;
     align-items: center;
     font-size: 20px;
+    font-family: fontbeba;
 }
 .servicios{
     grid-area: servicios;
@@ -255,6 +257,7 @@ font-size: 20px;
     align-items: center;
     justify-content: center;
     font-size: 20px;
+    font-family: fontbeba;  
 
 }
 /*-----------------page clientes-----------------------*/
@@ -273,7 +276,7 @@ font-size: 20px;
     grid-template-areas:
     "cliente cliente1  insumos";
     
-    gap: 1rem;
+   column-gap: 1rem;
    padding-top:80px;
    padding-bottom: 20px;
    
